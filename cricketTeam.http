@@ -1,0 +1,24 @@
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+ "playerName": "Ram",
+  "jerseyNumber": 12,
+  "role": "Bowler"
+}
+
+###
+PUT  http://localhost:3000/players/2/
+Content-Type: application/json
+
+{
+  "playerName": "Deepak",
+  "jerseyNumber": 6,
+  "role": "Batter"
+}
+
+###
+DELETE http://localhost:3000/players/3
+
+###
+GET http://localhost:3000/players/3
